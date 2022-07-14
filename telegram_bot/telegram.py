@@ -1,4 +1,4 @@
-token = '5576093073:AAER9Dv-UujDv0f69P0P4oC-IAhIHaHmRgI'
+from .auth import *
 import telebot
 
 
@@ -10,6 +10,8 @@ def telegtam_bot(token):
         bot.send_message(message.chat.id, 'HEllo my name NIkita')
 
     bot.polling()
+
+
 
 if __name__ == '__main__':
     telegtam_bot(token)
