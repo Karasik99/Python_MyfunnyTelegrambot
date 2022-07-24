@@ -123,7 +123,7 @@ def telegtam_bot(token):
                 bot.register_next_step_handler(message, sushi_all)
 
         elif message.text == 'Напитки':
-            with open('/home/karasik/Документы/telegram_bot/telegram_bot_v7/water.csv', newline='') as File:
+            with open('/telegram_bot_v7/wate2r.csv', newline='') as File:
                 reader = csv.reader(File)
                 for row in reader:
                     old_row = str(row)
